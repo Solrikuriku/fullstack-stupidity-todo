@@ -1,0 +1,146 @@
+*{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-size: 100% 100%;
+    background-color:#f5ff99;
+    background-color:#99fff7;
+    background-image:
+        radial-gradient(at 85% 51%, hsla(136,93%,70%,1) 0px, transparent 50%),
+        radial-gradient(at 26% 69%, hsla(77,98%,66%,1) 0px, transparent 50%),
+        radial-gradient(at 51% 32%, hsla(241,70%,67%,1) 0px, transparent 50%),
+        radial-gradient(at 7% 59%, hsla(284,87%,79%,1) 0px, transparent 50%),
+        radial-gradient(at 25% 78%, hsla(326,79%,65%,1) 0px, transparent 50%), 
+        radial-gradient(at 53% 73%, hsla(210,80%,62%,1) 0px, transparent 50%),
+        radial-gradient(at 36% 78%, hsla(4,74%,60%,1) 0px, transparent 50%);
+}
+  
+.container-mp {
+    display: flex; 
+    align-items: center; 
+    position: sticky; 
+    top: 0; 
+    margin-left: 5%;
+    margin-bottom: 10px;  
+}
+  
+.main-page-header input {
+    width: 300px;
+    padding: 12px;                     
+    font-size: 16px;                   
+    border: none;                      
+    border-radius: 30px;               
+    background: rgba(255, 255, 255, 0.6);
+}
+  
+.main-page-header input:focus {
+  background: rgba(255, 255, 255, 0.4); 
+  outline: none;    
+}
+  
+  .row {
+    margin-top: 15px; 
+    margin: 10px;
+  }
+  
+  button {
+    font-size: 16px;                 
+    font-weight: bold;               
+    color: rgba(255, 255, 255, 0.8);                    
+    border: none;                    
+    border-radius: 20px;              
+    cursor: pointer;                 
+} 
+  
+.put-your-task {
+    background: linear-gradient(150deg, rgba(92, 40, 236, 1), rgba(24, 240, 96, 1));    
+}
+  
+.put-your-task:hover {
+    background: linear-gradient(150deg, rgba(92, 40, 236, 0.6), rgba(24, 240, 96, 0.6));  
+}
+
+.previous {
+    background: linear-gradient(150deg, rgba(255, 153, 51, 1), rgba(255, 204, 20, 1));     
+}
+  
+.previous:hover {
+    background: linear-gradient(150deg, rgba(255, 153, 51, 0.6), rgba(255, 204, 20, 0.6)); 
+}
+  
+.next {
+    background: linear-gradient(120deg, rgba(235, 30, 78, 1), rgba(150, 57, 244, 1));         
+}
+  
+.next:hover {
+    background: linear-gradient(120deg, rgba(235, 30, 78, 0.6), rgba(150, 57, 244, 0.6));      
+}
+  
+.pagination{
+    margin-top: 5px;
+}
+
+.page-text {
+    color: rgba(15, 145, 154, 0.751);
+    text-align: center;        
+    font-size: 18px;           
+    font-weight: bold;         
+}
+
+.row-todos-items {
+    width: 500px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+    border-radius: 30px;   
+    background: rgba(255, 255, 255, 0.7);
+    margin-bottom: 5px;
+}
+  
+.todo-text {
+    flex: 1; 
+    font-size: 18px; 
+    color: #333; 
+}
+  
+.todos {
+    margin-top: 20px; 
+    max-height: 400px;
+    overflow-y: auto; 
+    padding-right: 10px; 
+    border-radius: 30px; 
+}
+
+.delete {
+    width: 25px;
+    margin: 0px 10px;
+    transform: translateY(15%);
+    cursor: pointer;
+}
+
+.check {
+  width: 25px;
+  margin: 0px 10px;
+  transform: translateY(15%);
+  cursor: pointer;
+}
+
+.exit-btn {
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  width: 30px;
+  cursor: pointer;
+  transform: translateY(0); 
+}
+
+
+  

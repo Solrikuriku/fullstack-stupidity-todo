@@ -1,0 +1,88 @@
+*{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;   
+    margin-bottom: 20px;   
+    margin: 0;
+    background-size: 100% 100%;
+    background-color:#f5ff99;
+    background-image:
+        radial-gradient(at 89% 22%, hsla(298,76%,72%,1) 0px, transparent 50%),
+        radial-gradient(at 39% 45%, hsla(341,87%,65%,1) 0px, transparent 50%),
+        radial-gradient(at 31% 88%, hsla(67,92%,71%,1) 0px, transparent 50%),
+        radial-gradient(at 40% 20%, hsla(269,91%,75%,1) 0px, transparent 50%),
+        radial-gradient(at 94% 63%, hsla(46,71%,69%,1) 0px, transparent 50%),
+        radial-gradient(at 14% 99%, hsla(357,71%,78%,1) 0px, transparent 50%),
+        radial-gradient(at 69% 14%, hsla(49,61%,72%,1) 0px, transparent 50%);
+}
+
+.text {
+    color: rgba(87, 13, 139, 0.4);
+    text-align: center;        
+    font-size: 36px;           
+    font-weight: bold;         
+    margin-bottom: 8px;
+}
+
+.error-message {
+    color: rgba(171, 2, 67, 0.8);
+    text-align: center;        
+    font-size: 18px;                    
+    margin-bottom: 5px;
+}
+
+.input input {
+    width: 300px;
+    padding: 12px;                    
+    font-size: 16px;                  
+    border: none;                     
+    border-radius: 30px;              
+    margin-bottom: 10px;             
+    background: rgba(255, 255, 255, 0.594); 
+}
+
+.input input:focus {
+    background: rgba(255, 255, 255, 0.4); 
+    outline: none;                       
+}
+
+.submit-container {
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 10px;
+}
+  
+button {
+    padding: 10px 20px;              
+    font-size: 16px;                 
+    font-weight: bold;               
+    color: rgba(255, 255, 255, 0.8);                    
+    border: none;                 
+    border-radius: 20px;            
+    cursor: pointer;                
+    margin: 0 5px;
+}
+  
+.registration {
+    background: linear-gradient(270deg, #ef58a1, #ac33b7);     
+}
+  
+.registration:hover {
+    background: linear-gradient(270deg, rgba(239, 88, 161, 0.6), rgba(172, 51, 183, 0.6));     
+}
+
+.login {
+    background: linear-gradient(145deg, #f0b63a, #e64ba5);
+}
+  
+.login:hover {
+    background: linear-gradient(145deg, rgba(240, 182, 58, 0.6), rgba(230, 75, 165, 0.6));
+}
+  
+  
